@@ -19,6 +19,9 @@ public class Organization{
 
     private List<User> ChildUser = new ArrayList<>();//存放该机构的下属成员
 
+    public Organization() {
+    }
+
     public Organization(String fID, String fName, String fPermission, String fHigherUpfIDs, String fRemark, String fOrgGUID) {
         this.fID = fID;
         this.fName = fName;
